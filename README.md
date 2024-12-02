@@ -35,6 +35,8 @@ ld -m elf_i386 question1.o -o question1
 Run the program:
 
 ./question1
+
+
 Question 2: Array Manipulation with Looping and Reversal (64-bit)
 This program prompts the user to input five single-digit integers (0-9), stores them in an array, reverses the array in place, and outputs the reversed array.
 
@@ -70,6 +72,8 @@ ld question2.o -o question2
 Run the program:
 
 ./question2
+
+
 Question 3: Factorial Calculation (64-bit)
 This program calculates the factorial of a number input by the user (from 0 to 12) using modular subroutines for validation, calculation, and output formatting.
 
@@ -104,6 +108,8 @@ ld question3.o -o question3
 Run the program:
 
 ./question3
+
+
 Question 4: Sensor Control Simulation (64-bit)
 This program simulates a water level sensor system. Based on the input sensor value, it controls motor and alarm states and outputs their statuses.
 
