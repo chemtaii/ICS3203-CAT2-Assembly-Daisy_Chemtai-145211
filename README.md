@@ -46,13 +46,14 @@ Iterates through the array and prints each digit after the reversal.
 Compilation and Execution
 Assemble the program:
 
-nasm -f elf64 array_reverse_64.asm -o array_reverse_64.o
+nasm -f elf64 question2.asm -o question2.o
 Link the object file:
 
-ld array_reverse_64.o -o array_reverse_64
+ld question2.o -o question2
 Run the program:
 
-./array_reverse_64
+./question2
+
 Question 3: Factorial Calculation (64-bit)
 Overview
 This program calculates the factorial of a user-input number (0-12) using a modular approach with subroutines. It leverages 64-bit registers and efficient looping for performance.
@@ -81,13 +82,14 @@ Handles ASCII-to-integer conversion for user input.
 Compilation and Execution
 Assemble the program:
 
-nasm -f elf64 factorial_64.asm -o factorial_64.o
+nasm -f elf64 question3.asm -o question3.o
 Link the object file:
 
-ld factorial_64.o -o factorial_64
+ld question3.o -o question3
 Run the program:
 
-./factorial_64
+./question3
+
 Question 4: Sensor Control Simulation (64-bit)
 Overview
 This program simulates a sensor control system. It reads a water level sensor value, determines motor and alarm states based on the value, and outputs the current statuses. The program uses 64-bit instructions for calculations and comparisons.
@@ -105,13 +107,13 @@ Displays the resulting states to the user.
 Compilation and Execution
 Assemble the program:
 
-nasm -f elf64 sensor_control_64.asm -o sensor_control_64.o
+nasm -f elf64 question4.asm -o question4.o
 Link the object file:
 
-ld sensor_control_64.o -o sensor_control_64
+ld question4.o -o question4
 Run the program:
 
-./sensor_control_64
+./question4
 Example
 Input:
 Enter sensor value: 90
